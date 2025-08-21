@@ -1,5 +1,6 @@
 import Aberrus from 'game/raids/aberrus';
 import Amirdrassil from 'game/raids/amirdrassil';
+import ManaforgeOmega from 'game/raids/manaforge';
 import LiberationOfUndermine from 'game/raids/undermine';
 import VaultOfTheIncarnates from 'game/raids/vaultoftheincarnates';
 import { StaticImageData } from 'next/image';
@@ -22,6 +23,7 @@ export interface Zone {
 }
 
 export const Raids = [
+  ManaforgeOmega, // tier 34
   LiberationOfUndermine, // tier 33
   NerubarPalace, // tier 32
   VaultOfTheIncarnates, // tier 29
